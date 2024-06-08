@@ -1,0 +1,26 @@
+#schedule {
+ border-collapse: collapse;
+  width: 100%;
+}
+th {
+    background-color: #80bcf7;
+  }
+
+td {
+  border: 1px solid #9a2d5b;
+  padding: 10px;
+  text-align: center;
+
+}tbody tr:nth-child(odd) {
+    background-color: #a6faa7;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #7780e0;
+  }
+  html, body {
+    min-height: 150%;
+}
+body {
+    min-height: 200%;
+}
